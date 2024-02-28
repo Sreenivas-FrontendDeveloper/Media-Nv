@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+.app-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-and-bid-part {
+  height: 100%;
+  width: 82%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar-line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 98%;
+  margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.live {
+  color: #40A2E3;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 14px;
+}
+
+.search-option {
+  color: grey;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 14px;
+}
+
+.search-bar-container {
+  height: 30px;
+  width: 400px;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.search-input {
+  border: none;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.create-btn {
+  color: #211C6A;
+  border: 1px solid #211C6A;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-left: auto;
+  padding: 8px;
+}
+
+.live-respond-line {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.live-30 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.response-30 {
+  color: green;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.unresponse-30 {
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bid-created {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.today {
+  color: grey;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+.calender {
+  font-size: 20px;
+  border: none;
+  background-color: antiquewhite;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.details-bar {
+  height: 70px;
+  width: 100%;
+  background-color: #0C359E;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.details-bar-options {
+  color: white;
+  font-size: 14px;
+
+}
+
+.sunder-details {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.address-details {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E9F6FF;
+}
+
+.bid-no {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bid-no-text {
+  font-size: 14px;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sunder-yadav {
+  color: grey;
 }
+.gurugram {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.green-point {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+}
+
+.location {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rajasthan {
+  color: grey;
+}
+
+.green-btn {
+  height: 12px;
+  width: 12px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+}
+
+.bottom-part {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+
